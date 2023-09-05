@@ -1,0 +1,40 @@
+.contact-container {
+    background-image: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url('../../assets/common-bg.svg');
+    padding: 4%;
+    padding-top: 40px;
+}
+.contact-form-container {
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    background: #fff;
+    padding: 40px;
+    max-width: 45rem;
+    border-radius: 5px;
+    margin: auto;
+    text-align: right;
+}
+.contact-form-input{
+    width: 100%;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    font-family: 'Poppins';
+    font-size: 14px;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+.contact-form-field{
+    margin-bottom: 40px;
+    text-align: left;
+}
+.contact-form-label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+@media (min-width:641px)  {
+    .contact-container {
+        padding: 4%;
+    }
+}
